@@ -1,9 +1,16 @@
 import './App.css';
 import Nav from './Nav';
+import Introduce from './introduce/Introduce';
 
 function App() {
   return (
-   <Nav />
+  <div className='app-wrapper'>
+      <div className='top'>
+        <Nav />
+        <Introduce />
+      </div>
+  </div>
+   
   );
 }
 

@@ -2,7 +2,7 @@ import './Nav.css'
 
 function Nav() {
     return (
-        <header className='Header'>
+        <div className='Header'>
             <div className='Header_nav'>
                 <h1 className='Header_logo'>Song's portfolio</h1>
                 <nav className='Header_menu'>
@@ -15,7 +15,7 @@ function Nav() {
                 </nav>
             </div>
 
-        </header>
+        </div>
     );
   }
   
