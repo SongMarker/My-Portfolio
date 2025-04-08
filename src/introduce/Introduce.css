@@ -1,0 +1,26 @@
+.top_Introduce {
+    margin-top: 150px;
+    background-color: transparent;
+    min-height: calc(100vh - 72px); /* Nav 아래부터 화면 끝까지 */
+  }
+  
+  .main_content {
+    text-align: center;
+  }
+
+  .main_content h1{
+    font-size: 65px;
+    color: #ebe5e5;
+
+  }
+
+hr {
+    width: 3.25rem;
+    margin: 120px auto;
+    border-top: .2rem solid #9d94d1;
+    opacity: 1;
+}
+
+h2{
+  color: #ebe5e5;
+}

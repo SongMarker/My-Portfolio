@@ -7,7 +7,7 @@ html, body {
 
 
 .top {
-    background-image: url('./laptop-1571702_1280.jpg');
+    background-image: url("./img/laptop-1571702_1280.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

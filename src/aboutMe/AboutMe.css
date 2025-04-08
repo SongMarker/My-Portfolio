@@ -1,0 +1,11 @@
+#icon img{
+    width: 30px;
+    height: 30px;
+}
+
+.aboutMe_title h3{
+    font-weight: 900;
+    font-family: 'Bebas Neue', sans-serif; /* 초굵은 폰트 */
+    font-size: 50px;
+    text-align: center; /*글자 가운데*/
+}

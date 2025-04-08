@@ -1,6 +1,7 @@
 import './App.css';
 import Nav from './Nav';
 import Introduce from './introduce/Introduce';
+import AboutMe from './aboutMe/AboutMe';
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <div className='top'>
         <Nav />
         <Introduce />
+      </div>
+      <div>
+        <AboutMe />
       </div>
   </div>
    
