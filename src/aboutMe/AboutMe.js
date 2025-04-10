@@ -12,7 +12,7 @@ function AboutMe() {
         <div className='aboutMe_title'>
             <h3>ABOUT ME</h3>
         </div>
-        <div>
+        <div className='aboutMe_detail'>
             <div className="name">
                 <div className="name_img" id='icon'>
                     <img src={nameIcon} alt="이름 아이콘" />
