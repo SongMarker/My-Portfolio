@@ -1,0 +1,81 @@
+#skills_icon img{
+    width: 35px;
+    height: 35px;
+}
+
+.skills {
+    background-color: orange;
+    overflow: auto; /*상위 div영역을 하위 영역과 같게 맞추기*/
+}
+
+.skills_content {
+    width: 100%;
+    max-width: 71.25rem;
+    padding: 4rem 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;       /* 추가: 패딩이 너비에 포함되도록, 이것으로 알맞게 화면비율 수정 */ 
+}
+
+.skills_title {
+    position: relative;        /* 요소를 상대적 위치로 설정, 기준점 역할 */
+    display: table;           /* 콘텐츠 크기에 맞게 너비 축소, 테이블처럼 표시 */
+    margin: 0 auto 3rem;      /* 가로 중앙 정렬(0 auto), 하단 3rem 여백 */
+}
+
+.skills_title h3 {
+    font-weight: 900;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    border-bottom: 0.5px solid black; /* 얇은 밑줄 */
+    display: inline-block; /* 텍스트 크기에 맞게 밑줄 */
+    margin: 0 auto; /* 추가적인 가운데 정렬 보조 */
+    padding-bottom: 2px; /* 밑줄과 텍스트 간격 (선택) */
+}
+
+.skills_icons_div {
+    display: grid;  /* div 태그들을 행과 열로 나눔 */
+    background-color: rgb(233, 235, 205);
+    border-radius: 15px;            /*모서리 둥글게 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* 그림자 */
+    row-gap: 2rem;
+    padding: 2rem;
+}
+
+
+#skills_icon{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    flex-shrink: 0;
+    width: 10rem;
+    font-weight: 900;
+    font-size: 1.25rem;
+}
+
+#skills_icon ul{
+    display: flex;
+    align-items: center;
+}
+
+.skills_list_value{
+    display: flex;
+    align-items: center;
+    list-style-type: none;      /*점 없애기*/
+    padding: .002rem .75rem;
+    border-radius: .8rem;   /* 모서리 */
+    font-weight: 500;   
+}
+
+#coding_skills {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.skills_list{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    column-gap: 1rem;
+
+}
