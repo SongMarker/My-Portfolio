@@ -1,14 +1,16 @@
 import './Skills.css'
+import '../css_files/title.css'
 import frontend_img from '../img/front2.png';
 import backend_img from '../img/back.png'
 import coding_img from '../img/coding.png'
 import devOps_img from '../img/devOps.png'
 
+
 function Skills() {
     return (
         <div className='skills' id='Skills'>
-            <div className='skills_content'>
-                <div className="skills_title">
+            <div className='skills_content' id='content'>
+                <div className="skills_title" id='content_title'>
                     <h3>Skills</h3>
                 </div>
                 <div className='skills_icons_div'>
