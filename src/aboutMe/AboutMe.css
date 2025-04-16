@@ -1,30 +1,36 @@
-#icon img {
+#aboutMe_icon img {
     width: 30px;
     height: 30px;
 }
 
+.aboutMe {
+    overflow: auto; /*상위 div영역을 하위 영역과 같게 맞추기*/
+}
+
+/*
 .aboutMe_title {
-    text-align: center; /* 부모 요소에서 가운데 정렬 보장 */
-    width: 100%; /* 부모가 전체 너비를 차지하도록 */
+    text-align: center;  부모 요소에서 가운데 정렬 보장 
+    width: 100%;  부모가 전체 너비를 차지하도록 
     margin-top: 60px;
-    margin-bottom: 2rem; /* 제목과 항목 사이 간격 */
+    margin-bottom: 2rem;  제목과 항목 사이 간격 
 }
 
 .aboutMe_title h3 {
     font-weight: 900;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 70px;
-    border-bottom: 0.5px solid black; /* 얇은 밑줄 */
-    display: inline-block; /* 텍스트 크기에 맞게 밑줄 */
-    margin: 0 auto; /* 추가적인 가운데 정렬 보조 */
-    padding-bottom: 2px; /* 밑줄과 텍스트 간격 (선택) */
+    border-bottom: 0.5px solid black;  얇은 밑줄 
+    display: inline-block;  텍스트 크기에 맞게 밑줄 
+    margin: 0 auto;  추가적인 가운데 정렬 보조 
+    padding-bottom: 2px;  밑줄과 텍스트 간격 (선택) 
 }
+*/
 
 .aboutMe_detail {
     display: flex;              /* Flexbox를 사용해 자식 요소들을 가로로 배치 */
     flex-wrap: wrap;           /* 컨테이너 너비를 초과하면 줄바꿈 허용 */
     justify-content: space-between; /* 같은 줄 내에서 자식 요소들을 양쪽 끝으로 정렬 */
-    gap: 3rem;                 /* 자식 요소들 사이에 6rem(약 96px) 간격 설정 */
+    gap: 3rem;                 /* 자식 요소들 사이에 6rem(약 96px) 간격 설정 -> 이름과 전화번호인 세로값 공백*/
     width: 70%;                /* 부모 요소 너비의 70%를 차지 */
     margin: auto;              /* 좌우 여백을 자동으로 설정해 수평 가운데 정렬 */
 }
@@ -32,8 +38,17 @@
 .aboutMe_detail > div {
     display: flex;              /* 내부 요소(아이콘과 텍스트)를 가로로 배치 */
     column-gap: 2rem;          /* 가로 방향(열) 간격을 2rem(약 32px)으로 설정 * 아이콘과 글자 사이 공백*/ 
-    width: 30%;               /* 부모(.aboutMe_detail)의 100% 너비를 차지 */
+    width: 100%;               /* 부모(.aboutMe_detail)의 100% 너비를 차지 */
     max-width: 14rem;          /* 최대 너비를 14rem(약 224px)으로 제한 */
-    padding-left: 2rem;
+    padding-left: 2rem
 }
 
+#aboutMe_text_content {
+    text-align: left;
+}
+#aboutMe_text_content label {
+    font-weight: 700;
+}
+#aboutMe_text_content div{
+    font-weight: 400;
+}
