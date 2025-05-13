@@ -3,7 +3,9 @@ import './Projects.css';
 function CrowdZeroProject() {
     return (
         <div>
-            <h4 className="projects_title">혼잡제로 (CrowdZero)</h4>
+            <h4 className="projects_title"
+            style={{backgroundColor: '#2468ee'}}>
+            쇼핑몰 프로젝트</h4>
             <div id='projects_period'>🗓 프로젝트 기간: 2025.1.2 ~ 2025.2.28</div>
 
             <div className='projects_text_content' id='jua-regular' >

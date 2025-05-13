@@ -5,7 +5,8 @@
     margin: 0 auto;
     text-align: center;
     box-sizing: border-box;       /*패딩이 너비에 포함되도록, 이것으로 알맞게 화면비율 수정*/
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;            /*화면구성 요소 이뻐보일려고 */
+
 }
 
 #content_title {
@@ -23,15 +24,6 @@
     margin: 0 auto; /* 추가적인 가운데 정렬 보조 */
     padding-bottom: 2px; /* 밑줄과 텍스트 간격 (선택) */
 }
-
-#content_div {
-    display: grid;  /* div 태그들을 행과 열로 나눔 */
-    border-radius: 15px;            /*모서리 둥글게 */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* 그림자 */
-    row-gap: 2rem;
-    padding: 2rem;
-}
-
 
 /*
 .aboutMe_title {

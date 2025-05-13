@@ -9,7 +9,7 @@ import '../css_files/title.css';
 
 function AboutMe() {
     return(
-    <div className="aboutMe" id='About Me'>
+    <div className="aboutMe" id='AboutMe'>
         <div className='aboutMe_content' id='content'>
             <div className='aboutMe_title' id='content_title'>
                 <h3>ABOUT ME</h3>
@@ -66,8 +66,8 @@ function AboutMe() {
                     </div>
                     <div id='aboutMe_text_content'>
                         <label>학력</label>
-                        <div id='aboutMe_text_content'>성공회대학교</div>
-                        <div id='am_text_content'>(소프트웨어공학전공)</div>
+                        <div>성공회대학교</div>
+                        <div>(소프트웨어공학전공)</div>
                     </div>
                 </div>
             </div>

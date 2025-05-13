@@ -1,0 +1,10 @@
+.End{
+    background-color: black;
+}
+.End_content{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 2rem 4rem;
+}

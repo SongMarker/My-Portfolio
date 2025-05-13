@@ -1,0 +1,63 @@
+.projects_title {
+    background-color: #F76C5E;
+    color: aliceblue;
+    border-radius: .8rem;
+    /* 모서리 */
+    font-weight: 900;
+    font-size: clamp(1em, 2vw, 2em);
+    /* 크기에 따라 자동 글자 크기 맞추기 */
+    width: 42%;
+    margin: 2rem auto;
+    margin-bottom: 0;
+    white-space: normal;
+    /*자동 줄바꿈 */
+    word-break: break-word;
+    /*단어가 너무 길어서 넘칠 경우 강제로 줄바꿈.*/
+    max-width: 100%;
+    /*<div>의 최대 너비를 부모 요소의 100%로 제한.*/
+    box-sizing: border-box;
+    /* 패딩과 보더를 너비 계산에 포함시켜 넘침 방지.*/
+    padding: 1rem 0.75rem;
+    /* 상하 1rem, 좌우 0.75rem */
+
+}
+
+.projects_content {
+    border-radius: 15px;
+    /*모서리 둥글게 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    /* 그림자 */
+}
+
+#projects_period {
+    margin-bottom: 2rem;
+}
+
+.projects_text_content {
+    width: 100%;
+    padding: 4rem 3rem;
+    padding-top: 0;
+    text-align: center;
+    box-sizing: border-box; /*패딩이 너비에 포함되도록, 이것으로 알맞게 화면비율 수정*/
+}
+.projects_introduce_text{
+    margin-bottom: 3rem; 
+    font-size: 25px;
+}
+
+.projects_list_content {
+    text-align: left;
+    list-style-position: inside; /* 리스트 마커를 안쪽으로 정렬 (선택사항) */
+}
+.projects_list_content li {
+    padding: 10px 0; /* 위아래 10px 패딩으로 간격 조정 */
+    list-style: disc; /* 기본 bullet 마커 */
+    padding-left: 10px; /* 텍스트를 마커 오른쪽으로 밀기 */
+    line-height: 1.5; /* 가독성을 위한 줄 간격 */
+}
+#jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

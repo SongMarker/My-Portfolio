@@ -1,0 +1,74 @@
+/* 헤더 전체 스타일 */
+.Header {
+  position: fixed; /* 상단에 고정 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* 다른 콘텐츠 위에 표시 */
+  transition: background-color 0.3s, box-shadow 0.3s; /* 배경과 그림자 변화 부드럽게 */
+}
+
+/* 맨 위에 있을 때 투명 배경 */
+.Header.transparent {
+  background-color: transparent; /* 배경 투명 */
+  box-shadow: none; /* 그림자 제거 */
+}
+
+/* 스크롤 내리면 흰색 배경 */
+.Header.scrolled {
+  background-color: #ffffff; /* 흰색 배경 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+}
+
+/* 네비게이션 바 내부 콘텐츠 */
+.Header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 로고 스타일 */
+.Header_logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333333; /* 기본 색상 */
+}
+
+/* 맨 위에 있을 때 로고 색상 (Introduce 배경에 따라 조정 가능) */
+.Header.transparent .Header_logo {
+  color: #ffffff; /* Introduce 배경이 어두운 경우 흰색으로 */
+}
+
+/* 메뉴 스타일 */
+.Header_menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* 각 메뉴 항목 */
+.Header_menu li {
+  margin-left: 20px;
+}
+
+/* 메뉴 링크 스타일 */
+.Header_menu a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+/* 맨 위에 있을 때 메뉴 링크 색상 */
+.Header.transparent .Header_menu a {
+  color: #ffffff; /* Introduce 배경에 따라 흰색으로 */
+}
+
+/* 링크 호버 효과 */
+.Header_menu a:hover {
+  color: #007bff;
+}
