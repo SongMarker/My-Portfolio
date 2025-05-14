@@ -1,0 +1,20 @@
+.project {
+    background-color: #AED9E0;
+    overflow: auto; /*상위 div영역을 하위 영역과 같게 맞추기*/
+
+}
+
+.project_content_div {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center; /* 수직 가운데 정렬 */
+    padding: 0px 10em;
+}
+
+
+.projects_content {
+    background-color: #FFFFFF;
+    border-radius: .9rem;   /* 모서리 */
+
+}

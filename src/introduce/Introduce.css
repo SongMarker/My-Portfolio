@@ -1,0 +1,64 @@
+.top_Introduce {
+  background-image: url("../img/workspace.jpg");
+  width: 100%;
+  /* 화면 너비에 맞춤 */
+  aspect-ratio: 1280 / 851;
+  /* 이미지 비율 유지 (1280x851) */
+  background-size: cover;
+  /* 이미지가 div를 꽉 채움 */
+  background-position: center;
+  /* 이미지 중앙 정렬 */
+  background-repeat: no-repeat;
+  /* 이미지 반복 방지 */
+}
+
+.main_content {
+  text-align: center;
+}
+
+.main_content h1 {
+  font-size: 5rem;
+  color: #ebe5e5;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  margin: 0%;
+  padding: 8.5rem 1.5rem 4rem;
+
+}
+
+h2 {
+  color: #ebe5e5;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+
+/* 커서 깜빡임 효과 */
+.cursor {
+  display: inline-block;
+  font-weight: 900;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .main_content h1 {
+    font-size: 2.5rem; /* 글씨 크기 줄임 */
+  }
+  .main_content h2 {
+    font-size: 0.8rem; /* h2 글씨도 줄임 */
+  }
+}

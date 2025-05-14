@@ -1,0 +1,19 @@
+.archiving {
+    background-color: #260b48;
+    overflow: auto; /*상위 div영역을 하위 영역과 같게 맞추기*/
+}
+
+.archiving_content_div {
+    display: flex;
+    flex-direction: row; /* 수평 배치 */
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0px 4em;
+}
+
+.archiving_content {
+    background-color: #FFFFFF;
+    border-radius: .9rem;   /* 모서리 */
+    flex: 1; /* 각 컴포넌트가 동일한 너비를 가지도록 */
+}
+

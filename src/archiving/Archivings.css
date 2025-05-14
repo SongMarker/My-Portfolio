@@ -1,0 +1,59 @@
+/* Archivings.css */
+.archivings_div {
+    /* margin을 padding으로 변경해 클릭 영역 확장 */
+    padding: 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer; /* 클릭 가능 표시 */
+    transition: transform 0.3s ease, background-color 0.2s ease; /* 확대 및 배경색 애니메이션 */
+}
+
+.archivings_div:hover {
+    transform: scale(1.1); /* 호버 시 전체 div 10% 확대 */
+    background-color: rgba(0, 0, 0, 0.05); /* 호버 시 배경색 미세 변화 */
+}
+
+.archiving_img {
+    width: 80%; /* 기존 스타일 */
+    max-width: 200px; /* 최대 너비 제한 */
+    height: auto;
+    margin-bottom: 2rem;
+    /* 이미지 자체 확대 애니메이션 제거 */
+}
+
+.archiving_link {
+    display: block;
+    text-decoration: none;
+    color: #0366d6; /* 링크 색상 */
+    font-size: 1rem;
+}
+
+.archiving_link:hover {
+    text-decoration: underline; /* 호버 시 밑줄 */
+}
+
+/* 포커스 스타일 추가로 키보드 접근성 개선 */
+.archivings_div:focus {
+    outline: 2px solid #0366d6;
+    outline-offset: 2px;
+}
+
+/* 모바일에서 스타일 조정 */
+@media (max-width: 768px) {
+    .archivings_div {
+        padding: 2rem 1rem; /* 모바일에서 패딩 축소 */
+    }
+
+    .archiving_img {
+        width: 60%; /* 모바일에서 이미지 크기 축소 */
+        max-width: 150px;
+        margin-bottom: 1.5rem;
+    }
+
+    .archiving_link {
+        font-size: 0.9rem; /* 모바일에서 텍스트 크기 축소 */
+    }
+}
